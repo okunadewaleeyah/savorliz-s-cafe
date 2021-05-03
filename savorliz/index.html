@@ -10,31 +10,62 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
     />
     <!-- styles -->
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="navbar.css"/>
   </head>
   <body>
-    <secction class="menu">
+    <nav>
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <img src="/images/navbar.svg" class="logo" alt="logo" />
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- links -->
+        <ul class="links">
+          <li>
+            <a href="index.html">home</a>
+          </li>
+          <li>
+            <a href="menu.html">menu</a>
+          </li>
+          <li>
+            <a href="contact.html">contact</a>
+          </li>
+        </ul>
+        <!-- social media -->
+        <ul class="social-icons">
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.pinterest.com">
+              <i class="fab fa-pinterest"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="menu">
       <!--Title-->
       <div class="title">
         <h4>Savorliz's Cafe</h4>
-        <h2>our menu</h2>
         <div class="underline"></div>
-      </div>
-      <!--filter buttons-->
-        <div class="btn-container">
-          <button class="filter-btn" type="button" data-id="all">all</button>
-          <button class="filter-btn" type="button" data-id="breakfast">breakfast</button>
-          <button class="filter-btn" type="button"  data-id="lunch">lunch</button>
-          <button class="filter-btn" type="button" data-id="shakes">shakes</button>
-          <button class="filter-btn" type="button" data-id="dinner">dinner</button>
-          <button class="filter-btn" type="button" data-id="soups">soups</button>
-        </div>
-      <!--menu items-->
-      <div class="section-center"></div>
-        <!-- single item -->
-       
-        <!-- end of single item -->
-    </secction>
+        
   </body>
   <script src="script.js"></script>
 </html>
